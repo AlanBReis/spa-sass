@@ -1,150 +1,179 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./styles/style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <title>Calmaria</title>
+    </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/styles/styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600;700&display=swap"
-        rel="stylesheet">
-    <title>Calmaria</title>
-</head>
-
-<body>
-    <main>
+    <body>
         <header>
             <nav>
-                <img src="./assets/logo.png" alt="logo">
-                <span class="linha"></span>
+                <img src="./assets/logo.png" alt="logo" />
+                <span class="line"></span>
                 <ul>
-                    <li><a href="#nosso-espaco">Nosso espaço</a></li>
-                    <li><a href="#servico">Servicos</a></li>
-                    <li><a href="#contatos">Contato</a></li>
+                    <li><a href="#">Nosso espaço</a></li>
+                    <li><a href="#">Servicos</a></li>
+                    <li><a href="#">Contato</a></li>
                 </ul>
             </nav>
             <section id="home">
-
-                <div class="textos-home">
-                    <h1>Boas-vindas ao seu refúgio de <span> paz e bem-estar</span></h1>
+                <div class="text-inner">
+                    <h1>Boas-vindas ao seu refúgio de paz e bem-estar</h1>
                     <button class="btn-main">Quero relaxar</button>
                 </div>
-                <div class="img-home">
-                    <img src="/assets/home-image.png" alt="Mulher de bruços recebendo massagem nas costas">
-                </div>
-
+                <img class="img-home" src="./assets/home-image.png" alt="" />
             </section>
         </header>
         <section id="nosso-espaco">
-            <div class="detalhes">
-                <div class="imgs-espaco">
-                    <img class="img-espaco" src="/assets/espaco-1.png"
-                        alt="Espaço iluminado pelo sol com design futurista composto por piscina e plantas">
-                </div>
+            <div class="details-inner">
+                <img src="./assets/espaco-1.png" alt="" />
                 <div class="espaco-textos">
-                    <h2 class="titulo">Tecnologia e natureza potencializando seu relaxamento</h2>
-                    <p class="infos">Oferecemos equipamentos de ponta, produtos certificados e uma equipe de
-                        profissionais ultra qualificados para dissipar seu estresse e ajudar você na busca por
-                        equilíbrio e tranquilidade.</p>
-                    <img class="separador" src="./assets/separador-direita.svg" alt="separador de seções">
+                    <p class="title">
+                        Tecnologia e natureza potencializando seu relaxamento
+                    </p>
+                    <p class="infos">
+                        Oferecemos equipamentos de ponta, produtos certificados
+                        e uma equipe de profissionais ultra qualificados para
+                        dissipar seu estresse e ajudar você na busca por
+                        equilíbrio e tranquilidade.
+                    </p>
+                    <object
+                        data="./assets/separador-direita.svg"
+                        type="image/svg+xml"
+                    ></object>
                 </div>
             </div>
-            <div class="detalhes">
-                <div class="imgs-espaco">
-                    <img class="img-espaco" src="/assets/espaco-2.png"
-                        alt="Mulher sentada numa banheira com uma taça na mão">
-                    <img class="img-espaco" src="/assets/espaco-3.png" alt="Espaço com uma piscina e um sofá ao fundo">
-                </div>
+            <div class="details-inner">
                 <div class="espaco-textos">
-                    <h2 class="titulo">Elevando seu bem-estar a um novo patamar</h2>
-                    <p class="infos">No Calmaria Spa cada visita é uma jornada revigorante para mais serenidade e
-                        disposição! Independente da sua rotina, vamos ajudar você a encontrar seu paraíso
-                        particular.</p>
-                    <img class="separador" src="./assets/separador-esquerda.svg" alt="separador de seções">
+                    <p class="title">
+                        Elevando seu bem-estar a um novo patamar
+                    </p>
+                    <p class="infos">
+                        No Calmaria Spa cada visita é uma jornada revigorante
+                        para mais serenidade e disposição! Independente da sua
+                        rotina, vamos ajudar você a encontrar seu paraíso
+                        particular.
+                    </p>
+                    <object
+                        data="./assets/separador-esquerda.svg"
+                        type="image/svg+xml"
+                    ></object>
                 </div>
+                <img src="./assets/espaco-2.png" alt="" />
+                <img src="./assets/espaco-3.png" alt="" />
             </div>
         </section>
         <section id="servico">
-
+            <!-- <div class="container"> -->
             <div class="cards">
                 <div class="card">
-                    <img src="/assets/icon-massagem.png" alt="Icone de massagem">
-                    <h3 class="card-titulo">Massagens</h3>
-                    <img src="./assets/Soft Star.png" alt="soft star">
-                    <p class="card-texto">Relaxantes, terapêuticas, desportivas e drenagens. Conte com nossos
-                        terapeutas especializados para aliviar suas tensões, tratar dores e retenção de líquido
-                        através
-                        dessa técnica milenar tão eficiente para o organismo humano.</p>
+                    <img src="./assets/icon-massagem.png" alt="" />
+                    <p class="title">Massagens</p>
+                    <img src="./assets/Soft Star.png" alt="" />
+                    <div class="text-details">
+                        Relaxantes, terapêuticas, desportivas e drenagens. Conte
+                        com nossos terapeutas especializados para aliviar suas
+                        tensões, tratar dores e retenção de líquido através
+                        dessa técnica milenar tão eficiente para o organismo
+                        humano.
+                    </div>
                 </div>
                 <div class="card">
-                    <img src="/assets/icon-tratamentos.png" alt="Icone de tratamento com figura de uma banheira">
-                    <h3 class="card-titulo">Tratamentos Corporais</h3>
-                    <img src="./assets/Soft Star.png" alt="soft star">
-                    <p class="card-texto">Tratamos sua pele com gentileza através de esfoliações corporais suaves,
-                        hidratações profundas do corpo e do rosto, além de limpeza facial. Você também pode
-                        desfrutar de
-                        banhos revigorantes de sais.</p>
+                    <img src="./assets/icon-tratamentos.png" alt="" />
+                    <p class="title">Tratamentos Corporais</p>
+                    <img src="./assets/Soft Star.png" alt="" />
+                    <div class="text-details">
+                        Tratamos sua pele com gentileza através de esfoliações
+                        corporais suaves, hidratações profundas do corpo e do
+                        rosto, além de limpeza facial. Você também pode
+                        desfrutar de banhos revigorantes de sais.
+                    </div>
                 </div>
                 <div class="card">
-                    <img src="/assets/icon-dias-especiais.png" alt="Icone de Dias especiais com figura de produtos">
-                    <h3 class="card-titulo">Dias especiais</h3>
-                    <img src="./assets/Soft Star.png" alt="soft star">
-                    <p class="card-texto">Pacotes cuidadosamente elaborados, desde o "Dia Revitalizante" com
-                        massagens e tratamentos faciais, até o "Dia Serenidade" com banhos terapêuticos e meditação.
-                        Mime-se com momentos de refúgio de tranquilidade.</p>
+                    <img src="./assets/icon-dias-especiais.png" alt="" />
+                    <p class="title">Dias especiais</p>
+                    <img src="./assets/Soft Star.png" alt="" />
+                    <div class="text-details">
+                        Pacotes cuidadosamente elaborados, desde o "Dia
+                        Revitalizante" com massagens e tratamentos faciais, até
+                        o "Dia Serenidade" com banhos terapêuticos e meditação.
+                        Mime-se com momentos de refúgio de tranquilidade.
+                    </div>
                 </div>
             </div>
-
+            <!-- </div> -->
         </section>
-        <section id="desconto">
-            <img src="/assets/mandala-esquerda.png" alt="Mandala lado esquerdo">
-            <div class="desconto-form">
-                <h4>Inscreva-se para ganhar descontos!</h4>
-                <p>Cadastre seu email para receber descontos e novidades sobre o espaço e nossos serviços.</p>
+        <section id="descontos">
+            <img src="./assets/mandala-esquerda.png" alt="" />
+            <div class="form-inscricao">
+                <h4 class="title">Inscreva-se para ganhar descontos!</h4>
+                <p>
+                    Cadastre seu email para receber descontos e novidades sobre
+                    o espaço e nossos serviços.
+                </p>
                 <div class="input-btn">
-                    <input type="email">
+                    <input type="email" />
                     <button type="submit">Inscrever</button>
                 </div>
             </div>
-            <img src="/assets/mandala-direita.png" alt="Mandala lado direito">
+            <img src="./assets/mandala-direita.png" alt="" />
         </section>
         <section id="contatos">
-            <div class="contatos-imgs">
-                <img src="/assets/contato-img-1.png" alt="Homem deitado em banheira">
-                <img src="/assets/contato-img-2.png" alt="Mulher olhando para o horizonte dentro de uma banheira">
-                <img src="/assets/contato-img-3.png"
-                    alt="Visão superior de um livro nas mãos de uma pessoa dentro de uma banheira">
+            <div class="imgs-contatos">
+                <img src="./assets/contato-img-1.png" alt="" />
+                <img src="./assets/contato-img-2.png" alt="" />
+                <img src="./assets/contato-img-3.png" alt="" />
             </div>
-            <div class="contatos-form">
-                <h4 class="titulo">Entre em contato</h4>
-                <p class="infos">Reserve seu horário, tire dúvidas ou proponha sugestões, nosso canal é aberto para
-                    você!</p>
-                <form class="inputs">
-                    <div class="form-group">
-                        <label for="nomeContato">Nome</label>
-                        <input type="text" id="nomeContato" placeholder="Digite nome completo">
-                    </div>
-                    <div class="form-group">
-                        <label for="emailContato">Email</label>
-                        <input type="email" id="emailContato" placeholder="Digite seu email">
-                    </div>
-                    <div class="form-group">
-                        <label for="telefoneContato">Telefone</label>
-                        <input type="text" id="telefoneContato" placeholder="(xx) xxxxx-xxxx">
-                    </div>
-                    <div class="form-group">
-                        <label for="mensagemContato">Mensagem</label>
-                        <textarea type="text" id="mensagemContato" placeholder="Escreva sua mensagem"></textarea>
-                    </div>
-                    <button class="btn">Enviar</button>
-                </form>
+            <div class="form-contato">
+                <div class="texts">
+                    <p class="title">Entre em contato</p>
+                    <p class="infos">
+                        Reserve seu horário, tire dúvidas ou proponha sugestões,
+                        nosso canal é aberto para você!
+                    </p>
+                </div>
+                <div class="inputs">
+                    <label for="nome">Nome</label>
+                    <input
+                        type="text"
+                        id="nome"
+                        placeholder="Digite seu nome completo"
+                    />
+                    <label for="email">Email</label>
+                    <input
+                        type="email"
+                        id="email"
+                        placeholder="Digite seu e-mail"
+                    />
+                    <label for="telefone">Telefone</label>
+                    <input
+                        type="text"
+                        id="telefone"
+                        placeholder="(XX) XXXXX-XXXX"
+                    />
+                    <label for="mensagem">Mensagem</label>
+                    <textarea
+                        type="text"
+                        id="mensagem"
+                        placeholder="Escreva sua mensagem"
+                    ></textarea>
+                </div>
+                <button>Enviar</button>
             </div>
         </section>
         <footer>
-            <small>Desenvolvido po Alura. Projeto fictício sem fins comerciais.</small>
+            <small
+                >Desenvolvido por Alura. Projeto fictício sem fins
+                comerciais.</small
+            >
         </footer>
-    </main>
-</body>
-
+    </body>
 </html>

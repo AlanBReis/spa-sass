@@ -1,0 +1,17 @@
+$roxo-escuro: #0c0421;
+$roxo-vibrante: #4e75ff;
+$roxo-calmante: #85a0ff;
+$lilas: #cad4fa;
+$verde-calmante: #e8f5c8;
+$verde-gradiente: linear-gradient(
+    180deg,
+    $verde-calmante 0%,
+    rgba(255, 255, 255, 1) 96%
+);
+$branco-gradiente: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.7) 0%,
+    rgba(202, 212, 250, 0.3) 100%
+);
+$font-krona: "Krona One", sans-serif;
+$font-montserrat: "Montserrat", sans-serif;
